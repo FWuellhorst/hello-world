@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html>
 <body>
+<div class="container">
+  <h2>Button Sizes</h2>
+  <button type="button" class="btn btn-primary btn-lg">Large</button>
+  <button type="button" class="btn btn-primary btn-md">Medium</button>    
+  <button type="button" class="btn btn-primary btn-sm">Small</button>
+  <button type="button" class="btn btn-primary btn-xs">XSmall</button>
+</div>
 
-<p>Click the button to trigger a function that will output "Hello World" in a p element with id="demo".</p>
-
-<button onclick="myFunction()">Click me</button>
-
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Hello World";
-}
-</script>
 
 </body>
 </html>
